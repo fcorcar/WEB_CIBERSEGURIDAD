@@ -46,3 +46,9 @@ def procesar():
         mensaje = "No se ha podido inscribir a las noticias semanales. Este usuario ya está inscrito."
 
     return render_template("mensaje.html", mensaje=mensaje)
+
+
+if __name__ == '__main__':
+    from dotenv import load_dotenv
+    load_dotenv()
+    app.run(host='0.0.0.0', port=10000)
