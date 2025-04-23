@@ -1,0 +1,20 @@
+# Entorno virtual
+.venv/
+
+# Variables de entorno
+.env
+
+# Base de datos
+noticias_semanales.db
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de test
+.coverage
+*.cover
+htmlcov/

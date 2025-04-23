@@ -1,0 +1,193 @@
+.contenedor-contenido {
+    background-color: rgb(238, 238, 238);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenido-1, .contenido-2, .contenido-3, .contenido-4 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 80px 20%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.cont-izq {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.cont-izq h2 {
+    font-size: 4rem;
+    color: rgb(1, 75, 160);
+}
+
+.cont-izq p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.cont-izq .boton {
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    background-color: rgb(1, 75, 160);
+    color: white;
+    border: 4px solid rgb(1, 75, 160);
+    font-weight: 600;
+}
+
+.cont-izq .boton:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 75, 160);
+    transition: all 0.3s;  
+}
+
+.cont-der {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-der video{
+    width: 100%;
+    background-color: rgb(1, 75, 160);
+    padding: 40px;
+}
+
+
+
+
+.contenido-2 {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+    width: 60%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    gap: 4%;
+
+}
+
+.contenido-2 .cont-izq {
+    margin-top: 4%;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    width: 48%;
+    transform: translateY(0);
+}
+
+.contenido-2 .cont-izq h2 {
+    font-size: 2.4rem;
+}
+
+.contenido-2 .cont-izq .boton {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(1, 75, 160);
+    border: none;
+    padding: 0;
+    text-align: left;
+    width: 150px;
+}
+
+.contenido-2 .cont-izq:hover {
+    background-color: rgb(0, 50, 107);
+    transform: translateY(-3%);
+    transition: all 0.3s;
+}
+
+.contenido-2 .cont-izq:hover h2 {
+    color: rgb(255, 200, 87);
+    transition: all 0.3s;
+}
+
+.contenido-2 .cont-izq:hover p,
+.contenido-2 .cont-izq:hover .boton{
+    color: white;
+    transition: all 0.3s;
+}
+
+.contenido-2 .cont-izq .boton:hover {
+    color: rgb(255, 200, 87);
+}
+
+.contenido-2 img {
+    margin: 3% 20%;
+}
+
+
+
+.contenido-3 {
+    background-color: rgb(0, 50, 107);
+    margin-top: 150px;
+}
+
+.contenido-3 .cont-der {
+    width: 30%;
+}
+
+.contenido-3 img {
+    width: 90%;
+}
+
+.contenido-3 .cont-izq {
+    width: 70%;
+}
+
+.contenido-3 .cont-izq h2 {
+    font-size: 2.2rem;
+    margin-bottom: -20px;
+}
+
+.contenido-3 .cont-izq h2,
+.contenido-3 .cont-izq p {
+    color: white;
+}
+
+.contenido-3 .cont-izq .boton {
+    color: white;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+.contenido-3 .cont-izq .boton:hover {
+    background-color: rgb(0, 32, 69);
+    width: 100%;
+}
+
+
+
+.contenido-4 {
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    width: 60%;
+    margin-top: 150px;
+    margin-bottom: 170px;
+}
+
+.contenido-4 .cont-izq{
+    width: 35%;
+}
+
+.contenido-4 .cont-izq h2{
+    font-size: 2.8rem;
+}
+
+.contenido-4 .cont-der{
+    width: 75%;
+}
+
+.contenido-4 .cont-der img {
+    width: 100%;
+}
+
+

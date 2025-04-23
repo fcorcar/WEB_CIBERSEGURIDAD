@@ -1,0 +1,9 @@
+.contenedor-contenido {
+    height: 100vh;
+}
+
+.cont-izq {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

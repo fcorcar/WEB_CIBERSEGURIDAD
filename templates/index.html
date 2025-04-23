@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="¿Qué es la Ciberseguridad">
+    <meta name="keywords" content="Ciberseguridad, equipos, red">
+    <meta name="author" content="Francisco Cortés">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./static/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./static/css/header.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/footer.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <title>Ciberseguridad</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/"><h1>CIBERSEGURIDAD</h1></a>
+            <a href="#menu">☰</a>
+        </nav>
+        <div id="relleno-nav"></div>
+        
+        <div id="menu">
+            <a id="salir" href="#"></a>
+            <div class="contenedor-cerrar">
+                <a href="#" class="btn-cerrar">×</a>
+            </div>
+            <div class="contenedor-opciones">
+                <a id="inicio" href="/">Inicio</a>
+                <a href="/seguridad-privacidad">Seguridad y Privacidad</a>
+                <a href="/tratamiento-informacion">Tatamiento de la Información</a>
+                <a href="/almacenamiento-informacion">Almacenamiento de la Información</a>
+                <a href="/principales-amenazas">Principales Amenazas</a>
+                <a href="/contraseñas">Contraseñas</a>
+                <a href="/proteccion-trabajo">Protección en el Trabajo</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor-contenido">
+        <section class="contenido-1">
+            <div class="cont-izq">
+                <h2>¿Qué es la Ciberseguridad?</h2>
+                <p>
+                    La ciberseguridad es la práctica de proteger redes, dispositivos, aplicaciones, sistemas y datos de las ciberamenazas, con el objetivo de evitar ataques que intentan acceder, destruir o extorsionar datos, o interrumpir operaciones. 
+                </p>
+
+                <a class="boton" href="/seguridad-privacidad">Saber más</a>
+            </div>
+
+            <div class="cont-der">
+                <video preload autoplay loop muted poster="./images/portada-video-responsabilidad.jpg">
+                    <source src="./static/videos/Responsabilidad activa.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+
+        <section class="contenido-2">
+            <div class="cont-izq">
+                <img src="./static/images/logo_info.png" alt="Tratamiento de la Información">
+                <h2>Tratamiento de la Información</h2>
+                <p>
+                    La correcta gestión de la información en una organización es fundamental para proteger los datos frente a accesos no autorizados, pérdidas o alteraciones. Clasificar y proteger la información...
+                </p>
+
+                <a class="boton" href="/seguridad-privacidad">Ver más ⋙</a>
+            </div>
+
+            <div class="cont-izq">
+                <img src="./static/images/logo_amenazas.png" alt="Principales Amenazas">
+                <h2>Principales Amenazas</h2>
+                <p>
+                    En el entorno digital, una amenaza se define como cualquier circunstancia potencialmente negativa que puede afectar la disponibilidad, integridad o funcionamiento de los sistemas...
+                </p>
+
+                <a class="boton" href="./principales-amenazas.html">Ver más ⋙</a>
+            </div>
+
+            <div class="cont-izq">
+                <img src="./static/images/logo_almacenamiento.png" alt="Almacenamiento">
+                <h2>Almacenamiento</h2>
+                <p>
+                    El almacenamiento seguro de los datos es un pilar esencial en la gestión de la información de una empresa. Contar con sistemas adecuados de respaldo y borrado seguro garantiza la continuidad...
+                </p>
+
+                <a class="boton" href="/almacenamiento-informacion">Ver más ⋙</a>
+            </div>
+
+            <div class="cont-izq">
+                <img src="./static/images/logo_proteccion.png" alt="Protección">
+                <h2>Protección</h2>
+                <p>
+                    Los puestos de trabajo (ordenadores, dispositivos móviles, etc.) son puntos clave donde se maneja gran parte de la información sensible de una empresa. Por eso, protegerlos no solo...
+                </p>
+
+                <a class="boton" href="/proteccion-trabajo">Ver más ⋙</a>
+            </div>
+        </section>
+
+
+        <section class="contenido-3">
+            <div class="cont-der">
+                <img src="./static/images/logo_autenticacion.png" alt="Autenticación">
+            </div>
+
+            <div class="cont-izq">
+                <h2>¿Qué es la autenticación multifactor (MFA)?</h2>
+                <p>
+                    La autenticación multifactor (MFA) refuerza la seguridad de los accesos combinando varios métodos de verificación, más allá de la contraseña.
+                </p>
+
+                <a class="boton" href="/contraseñas#mfa">Saber más</a>
+            </div>
+        </section>
+
+
+        <section class="contenido-4">
+            <div class="cont-izq">
+                <h2>Contraseñas</h2>
+                <p>
+                    Las contraseñas siguen siendo uno de los métodos más utilizados para autenticar el acceso a dispositivos, programas y servicios, a pesar de la evolución tecnológica.
+                </p>
+
+                <a class="boton" href="/contraseñas">Saber más</a>
+            </div>
+
+            <div class="cont-der">
+                <img src="./static/images/logo_pass.png" alt="Contraseñas">
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <div id="contenido-footer">
+            <div id="izq">
+                <img src="./static/images/logo.png" alt="CIBERSEGURIDAD">
+            </div>
+
+            <div id="centro">
+                <a href="/">CIBERSEGURIDAD</a>
+                <p>IP Pública: {{ip}}</p>
+            </div>
+
+            <div id="der">
+                
+                <form name="formulario" method="POST" action="/procesar">
+                    <p>Noticias Semanales</p>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" minlength="2" maxlength="50" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail" minlength="3" maxlength="45" required>
+                    <input type="submit" name="btn-enviar" id="btn-enviar" value="SUSCRIBETE">
+                </form>
+            </div>
+        </div>
+
+        <div id="derechos-reservados">
+            <p>
+                &copy; Todos los derechos reservados - 2025
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

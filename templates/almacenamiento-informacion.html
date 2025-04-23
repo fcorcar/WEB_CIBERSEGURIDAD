@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="¿Qué es la Ciberseguridad">
+    <meta name="keywords" content="Ciberseguridad, equipos, red">
+    <meta name="author" content="Francisco Cortés">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./static/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./static/css/header.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/footer.css">
+    <title>Almacenamiento de la Información</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/"><h1>CIBERSEGURIDAD</h1></a>
+            <a href="#menu">☰</a>
+        </nav>
+        <div id="relleno-nav"></div>
+        
+        <div id="menu">
+            <a id="salir" href="#"></a>
+            <div class="contenedor-cerrar">
+                <a href="#" class="btn-cerrar">×</a>
+            </div>
+            <div class="contenedor-opciones">
+                <a id="inicio" href="/">Inicio</a>
+                <a href="/seguridad-privacidad">Seguridad y Privacidad</a>
+                <a href="/tratamiento-informacion">Tatamiento de la Información</a>
+                <a href="/almacenamiento-informacion">Almacenamiento de la Información</a>
+                <a href="/principales-amenazas">Principales Amenazas</a>
+                <a href="/contraseñas">Contraseñas</a>
+                <a href="/proteccion-trabajo">Protección en el Trabajo</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor-contenido">
+        <section class="contenido">
+            <article>
+                <h2>Almacenamiento de la Información</h2>
+                <p>
+                    El almacenamiento seguro de los datos es un pilar esencial en la gestión de la información de una empresa. Contar con sistemas adecuados de respaldo y borrado seguro garantiza la continuidad del negocio y el cumplimiento normativo frente a pérdidas, accesos no autorizados o filtraciones.
+                </p>
+
+                <img id="img-ini" src="./static/images/almacenamiento.png" alt="Almacenamiento de la Información">
+            </article>
+
+            <article>
+                <h3>Copias de seguridad</h3>
+                <p>
+                    Las copias de seguridad o backups permiten recuperar la información en caso de fallos técnicos, errores humanos, ciberataques o desastres naturales. Una buena estrategia de backup es clave para proteger los datos críticos y garantizar la operatividad empresarial.
+                </p>
+
+                <br>
+
+                <p>
+                    <u><b>Aspectos clave a considerar en una estrategia de respaldo:</b></u>
+                </p>
+
+                <ol>
+                    <li>
+                        <h4>¿Qué datos respaldar?</h4>
+                        <p>
+                            Deben priorizarse los datos esenciales como bases de datos, registros de clientes, información financiera o propiedad intelectual. Además, es importante tener en cuenta los requisitos legales que obligan a conservar ciertos datos por un periodo determinado.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h4>¿Con qué frecuencia hacer copias?</h4>
+                        <p>
+                            La periodicidad depende de la frecuencia con la que cambian los datos. Para planificarlo, se utiliza el concepto de RPO (Recovery Point Objective), que define cuánto tiempo máximo puede pasar entre copias sin que se ponga en riesgo la continuidad del negocio.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h4>¿Qué tipo de backup utilizar?</h4>
+                        <p>
+                            Existen distintos enfoques según el volumen de datos y la necesidad de recuperación:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <b>Completa:</b> Copia todos los datos seleccionados. <br>
+                                    <i><span class="verde">Ventaja:</span> recuperación rápida.</i> <br>
+                                    <i><span class="rojo">Desventaja:</span> mayor consumo de tiempo y almacenamiento.</i>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <b>Incremental:</b> Copia solo los datos modificados desde la última copia (completa o incremental). <br>
+                                    <i><span class="verde">Ventaja:</span> ahorra espacio.</i> <br>
+                                    <i><span class="rojo">Desventaja:</span> recuperación más compleja.</i>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <b>Diferencial:</b> Copia los cambios desde la última copia completa. <br>
+                                    <i><span class="verde">Ventaja:</span> recuperación más simple que la incremental.</i> <br>
+                                    <i><span class="rojo">Desventaja:</span> tamaño de copia puede crecer rápidamente.</i>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <b>Continua:</b> Copia en tiempo real. <br>
+                                    <i><span class="verde">Ventaja:</span> mínima pérdida de datos.</i> <br>
+                                    <i><span class="rojo">Desventaja:</span> requiere más infraestructura y coste.</i>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h4>¿Dónde almacenar las copias?</h4>
+                        <p>
+                            La elección del medio de almacenamiento depende de factores como presupuesto, volumen de datos y seguridad:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <b>Discos duros o almacenamiento en red (NAS/SAN):</b> rápido y accesible, pero vulnerable a fallos físicos.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <b>Cintas magnéticas:</b> adecuadas para archivado a largo plazo, aunque con acceso más lento.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <b>Almacenamiento en la nube:</b> flexible y escalable, ideal para continuidad del negocio, aunque requiere atención especial a la seguridad y conectividad.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <b>Almacenamiento híbrido:</b> combina almacenamiento local y en la nube para un equilibrio entre rapidez y protección.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h4>¿Cómo gestionar las copias?</h4>
+                        <p>
+                            Se recomienda seguir la regla 3-2-1:
+                        </p>
+                        <ul>
+                            <li>3 copias de los datos.</li>
+                            <li>En 2 tipos de soporte distintos.</li>
+                            <li>Y 1 copia almacenada fuera del sitio principal.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <br>
+
+                <div class="contenedor-imagenes">
+                    <img src="./static/images/copias.png" alt="Confidencialidad, Integridad y Disponibilidad">
+                </div>
+            </article>
+
+            <article>
+                <h3>Borrado seguro de la información</h3>
+                <p>
+                    Eliminar datos sensibles de forma segura es tan importante como protegerlos. Los datos que ya no son necesarios, si no se eliminan correctamente, pueden suponer un riesgo legal o reputacional para la empresa.
+                </p>
+
+                <br>
+
+                <p>
+                    <u><b>Buenas prácticas para un borrado seguro:</b></u>
+                </p>
+
+                <ul>
+                    <li>
+                        <p>
+                            <b>Políticas claras y procedimientos internos:</b> Establecer cuándo, cómo y qué información debe eliminarse. Realizar auditorías periódicas y mantener registros de las eliminaciones realizadas.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <b>Concienciación del personal:</b> Formar a los empleados en la importancia del borrado seguro y en los métodos adecuados para hacerlo.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <b>Inventario actualizado de activos:</b> Identificar claramente los dispositivos que almacenan datos, incluyendo ordenadores, discos duros y móviles.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <b>Uso de cifrado:</b> Si los datos están cifrados, eliminar la clave también los hace inaccesibles en caso de recuperación indebida.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <b>Gestión del borrado en la nube:</b> Seguir las directrices del proveedor cloud para asegurar una eliminación completa de datos y respaldos.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <b>Herramientas especializadas:</b> Utilizar software que garantice la eliminación segura, como DBAN, Blancco Drive Eraser o Eraser.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            <b>Destrucción física:</b> En casos necesarios, como con dispositivos obsoletos, recurrir a servicios de destrucción física profesional.
+                        </p>
+                    </li>
+                </ul>
+
+                <br>
+
+                <div class="contenedor-video-yt">
+                    <iframe
+                      src="https://www.youtube.com/embed/_obelPk6X-4?si=xzVbrxDfP66w2grl"
+                      title="Cómo borrar (destruir) datos de un disco de forma segura"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen>
+                    </iframe>
+                </div>
+            </article>
+        </section>
+
+        <aside class="contenedor-lateral">
+            <section class="lateral">
+                <h3>Rescursos sobre la Ciberseguridad</h3>
+                <ul>
+                    <li><a href="https://inforges.es/blog/cuales-son-los-tipos-de-ciberseguridad/" target="_blank">Tipos de Ciberseguridad</a></li>
+                    <li><a href="https://www.aprendaredes.com/ciberseguridad-en-ti-vs-ot-desmitificando-las-diferencias-cruciales/#:~:text=Ejemplos%20Diferenciadores%20en%20Ciberseguridad%20TI%20y%20OT%3A&text=TI%3A%20Implementaci%C3%B3n%20de%20cifrado%20de,protegidos%20contra%20accesos%20no%20autorizados." target="_blank">TI vs OT</a></li>
+                    <li><a href="https://www.microsoft.com/es-es/security/business/security-101/what-is-ai-for-cybersecurity" target="_blank">IA para Ciberseguridad</a></li>
+                    <li><a href="https://keepcoding.io/blog/pilares-basicos-de-la-ciberseguridad/" target="_blank">Pilares de la Ciberseguridad</a></li>
+                </ul>
+
+                <hr>
+
+                <h3>Enlace rápidos</h3>
+                <ul>
+                    <li><a href="/tratamiento-informacion">Tratamiento de la Información</a></li>
+                    <li><a href="/seguridad-privacidad">Seguridad y Privacidad</a></li>
+                    <li><a href="/contraseñas">Contraseñas</a></li>
+                    <li><a href="/proteccion-trabajo">Protección del puesto de trabajo</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+    
+    <footer>
+        <div id="contenido-footer">
+            <div id="izq">
+                <img src="./static/images/logo.png" alt="CIBERSEGURIDAD">
+            </div>
+
+            <div id="centro">
+                <a href="./index.html">CIBERSEGURIDAD</a>
+                <p>IP Pública: {{ip}}</p>
+            </div>
+
+            <div id="der">
+                
+                <form name="formulario" method="POST" action="/procesar">
+                    <p>Noticias Semanales</p>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" minlength="2" maxlength="50" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail" minlength="3" maxlength="45" required>
+                    <input type="submit" name="btn-enviar" id="btn-enviar" value="SUSCRIBETE">
+                </form>
+            </div>
+        </div>
+
+        <div id="derechos-reservados">
+            <p>
+                &copy; Todos los derechos reservados - 2025
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

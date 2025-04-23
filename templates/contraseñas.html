@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="¿Qué es la Ciberseguridad">
+    <meta name="keywords" content="Ciberseguridad, equipos, red">
+    <meta name="author" content="Francisco Cortés">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./static/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./static/css/header.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/footer.css">
+    <title>Contraseñas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/"><h1>CIBERSEGURIDAD</h1></a>
+            <a href="#menu">☰</a>
+        </nav>
+        <div id="relleno-nav"></div>
+        
+        <div id="menu">
+            <a id="salir" href="#"></a>
+            <div class="contenedor-cerrar">
+                <a href="#" class="btn-cerrar">×</a>
+            </div>
+            <div class="contenedor-opciones">
+                <a id="inicio" href="/">Inicio</a>
+                <a href="/seguridad-privacidad">Seguridad y Privacidad</a>
+                <a href="/tratamiento-informacion">Tatamiento de la Información</a>
+                <a href="/almacenamiento-informacion">Almacenamiento de la Información</a>
+                <a href="/principales-amenazas">Principales Amenazas</a>
+                <a href="/contraseñas">Contraseñas</a>
+                <a href="/proteccion-trabajo">Protección en el Trabajo</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor-contenido">
+        <section class="contenido">
+            <article>
+                <h2>Contraseñas</h2>
+                <p>
+                    Las contraseñas siguen siendo uno de los métodos más utilizados para autenticar el acceso a dispositivos, programas y servicios, a pesar de la evolución tecnológica. Su correcta creación y gestión resulta esencial para garantizar la seguridad de la información y proteger los datos personales y corporativos en entornos digitales.
+                </p>
+
+                <img id="img-ini" src="./static/images/contraseñas.png" alt="Contraseñas">
+            </article>
+
+            <article>
+                <h3>¿Qué buenas prácticas deben seguirse con las contraseñas?</h3>
+                <p>
+                    Para que una contraseña sea segura, debe cumplir con ciertas características y utilizarse adecuadamente.
+                </p>
+
+                <br>
+
+                <p>
+                    <u><b>Estas son las principales recomendaciones:</b></u>
+                </p>
+
+                <h4>Contraseña compleja</h4>
+                <ul>
+                    <li>Debe tener al menos 8 caracteres.</li>
+                    <li>Debe incluir al menos mayúsculas, minusculas, números y caracteres especiales.</li>
+                </ul>
+
+                <h4>Contraseña aséptica</h4>
+                <ul>
+                    <li>Cada cuenta debe tener una contraseña distinta.</li>
+                    <li>Utilizar un gestor de contraseñas, que almacena y completa automáticamente las credenciales. Solo es necesario recordar la contraseña maestra.</li>
+                </ul>
+
+                <h4>Contraseña diferente</h4>
+                <ul>
+                    <li>No debe contener datos personales (nombre, fechas, lugares conocidos).</li>
+                    <li>Esto previene ataques de fuerza bruta o el uso de información pública para adivinar contraseñas.</li>
+                </ul>
+
+                <h4>Contraseña a buen recaudo</h4>
+                <ul>
+                    <li>Las contraseñas deben almacenarse de forma segura.</li>
+                    <li>Evitar escribirlas en lugares accesibles o enviarlas por medios inseguros.</li>
+                </ul>
+            </article>
+
+            <article id="mfa">
+                <h3>¿Qué es la autenticación multifactor (MFA)?</h3>
+                <p>
+                    La autenticación multifactor (MFA) refuerza la seguridad de los accesos combinando varios métodos de verificación, más allá de la contraseña. Así, aunque esta se vea comprometida, se requiere un segundo o tercer elemento para validar la identidad del usuario.
+                </p>
+
+                <br>
+
+                <p>
+                    <b>Tipos de autenticación MFA más comunes</b>
+                </p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tipo de autenticación</th>
+                            <th>Funcionamiento</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>2FA (Autenticación de dos factores)</th>
+                            <td>
+                                Combina algo que el usuario sabe (contraseña) con algo que posee (como un código enviado al móvil o una app de autenticación).
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>3FA (Autenticación de tres factores)</th>
+                            <td>
+                                Añade un tercer elemento, algo que el usuario es, como una huella digital o reconocimiento facial. Requiere hardware biométrico.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>4FA (Autenticación de cuatro factores)</th>
+                            <td>
+                                Incorpora un cuarto factor, la ubicación geográfica. Si se detecta un intento de acceso desde una ubicación inusual, se requieren validaciones adicionales.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <aside class="contenedor-lateral">
+            <section class="lateral">
+                <h3>Rescursos sobre la Ciberseguridad</h3>
+                <ul>
+                    <li><a href="https://inforges.es/blog/cuales-son-los-tipos-de-ciberseguridad/" target="_blank">Tipos de Ciberseguridad</a></li>
+                    <li><a href="https://www.aprendaredes.com/ciberseguridad-en-ti-vs-ot-desmitificando-las-diferencias-cruciales/#:~:text=Ejemplos%20Diferenciadores%20en%20Ciberseguridad%20TI%20y%20OT%3A&text=TI%3A%20Implementaci%C3%B3n%20de%20cifrado%20de,protegidos%20contra%20accesos%20no%20autorizados." target="_blank">TI vs OT</a></li>
+                    <li><a href="https://www.microsoft.com/es-es/security/business/security-101/what-is-ai-for-cybersecurity" target="_blank">IA para Ciberseguridad</a></li>
+                    <li><a href="https://keepcoding.io/blog/pilares-basicos-de-la-ciberseguridad/" target="_blank">Pilares de la Ciberseguridad</a></li>
+                </ul>
+
+                <hr>
+
+                <h3>Enlace rápidos</h3>
+                <ul>
+                    <li><a href="/tratamiento-informacion">Tratamiento de la Información</a></li>
+                    <li><a href="/seguridad-privacidad">Seguridad y Privacidad</a></li>
+                    <li><a href="/principales-amenazas">Principales Amenazas</a></li>
+                    <li><a href="/proteccion-trabajo">Protección del puesto de trabajo</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+    
+    <footer>
+        <div id="contenido-footer">
+            <div id="izq">
+                <img src="./static/images/logo.png" alt="CIBERSEGURIDAD">
+            </div>
+
+            <div id="centro">
+                <a href="./index.html">CIBERSEGURIDAD</a>
+                <p>IP Pública: {{ip}}</p>
+            </div>
+
+            <div id="der">
+                
+                <form name="formulario" method="POST" action="/procesar">
+                    <p>Noticias Semanales</p>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" minlength="2" maxlength="50" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail" minlength="3" maxlength="45" required>
+                    <input type="submit" name="btn-enviar" id="btn-enviar" value="SUSCRIBETE">
+                </form>
+            </div>
+        </div>
+
+        <div id="derechos-reservados">
+            <p>
+                &copy; Todos los derechos reservados - 2025
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
