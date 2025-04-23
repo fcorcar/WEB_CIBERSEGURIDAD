@@ -121,3 +121,60 @@ nav h1 {
     transform: translateX(0);
 }
 
+
+/* === Estilos para tablets (pantallas de 768px a 1024px) === */
+@media screen and (max-width: 1454px) {
+    nav {
+        padding: 0px 70px;
+
+    }
+
+    .contenedor-cerrar {
+        width: 45vw;
+
+    }
+
+    .contenedor-opciones {
+        width: 45vw;
+
+    }
+
+    #menu #salir {
+        width: 65%;
+        margin-right: 45%;
+    }
+
+}
+
+/* === Estilos para móviles (pantallas menores de 768px) === */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 0px 30px;
+
+    }
+
+    .contenedor-cerrar {
+        width: 85vw;
+
+    }
+
+    .contenedor-opciones {
+        width: 85vw;
+
+    }
+
+    nav a, h1 {
+        font-size: 20px;
+    }
+
+    .contenedor-opciones a {
+        font-size: 20px;
+        padding-top: 25px;
+    }
+
+    #menu #salir {
+        width: 15%;
+        margin-right: 85%;
+    }
+
+}

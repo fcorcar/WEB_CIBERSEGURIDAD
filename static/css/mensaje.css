@@ -7,3 +7,13 @@
     align-items: center;
     text-align: center;
 }
+
+/* === Estilos para tablets (pantallas de 768px a 1024px) === */
+@media screen and (max-width: 1454px) {
+    .contenido-4 {
+        height: 100vh;
+        margin: 0;
+        justify-content: center;
+    }
+
+}

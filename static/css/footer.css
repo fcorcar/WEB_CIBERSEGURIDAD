@@ -91,3 +91,77 @@
     font-size: 0.9rem;
 }
 
+
+
+/* === Estilos para tablets (pantallas de 768px a 1024px) === */
+@media screen and (max-width: 1454px) {
+    #contenido-footer #izq img {
+        width: 110px;
+    }
+
+    #contenido-footer #der input {
+        width: 100%;
+
+    }
+
+    #contenido-footer #centro a {
+        font-size: 26px;
+        letter-spacing: 0px;
+    }
+    
+    #contenido-footer #centro p {
+        font-size: 18px;
+    }
+
+}
+
+/* === Estilos para móviles (pantallas menores de 768px) === */
+@media screen and (max-width: 768px) {
+
+    #contenido-footer {
+        flex-direction: column;
+    }
+
+    #contenido-footer #izq, #der {
+        width: 100%;
+
+    }
+    
+    
+
+    
+    #contenido-footer #centro {
+
+        width: 100%;
+
+    }
+
+    #contenido-footer #der form {
+        width: 100%;
+
+    }
+
+    #contenido-footer #der input {
+        width: 100%;
+
+    }
+
+    #contenido-footer #der p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #contenido-footer #der input[type="submit"] {
+        font-size: 1rem;
+
+    }
+
+    #contenido-footer #centro a {
+        font-size: 22px;
+
+    }
+
+    #contenido-footer #centro p {
+        font-size: 16px;
+    }
+}

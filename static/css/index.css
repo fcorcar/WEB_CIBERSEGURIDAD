@@ -191,3 +191,195 @@
 }
 
 
+
+
+/* === Estilos para tablets (pantallas de 768px a 1024px) === */
+@media screen and (max-width: 1454px) {
+    .contenido-1 {
+        flex-direction: column;
+        padding: 60px 10%;
+        gap: 50px;
+
+    }
+
+    .cont-izq, .cont-der {
+        width: 100%;
+        gap: 25px;
+
+    }
+
+    .contenido-2 {
+        width: 90%;
+
+    
+    }
+
+    .contenido-3 {
+        flex-direction: column;
+        padding: 80px 10%;
+        gap: 50px;
+        margin-top: 100px;
+
+    }
+
+    .contenido-3 .cont-izq,
+    .contenido-3 .cont-der {
+        width: 100%;
+    }
+
+    .contenido-3 img {
+        width: 50%;
+    }
+
+
+    .contenido-4 {
+        flex-direction: column;
+        padding: 80px 10%;
+        gap: 10px;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 110px;
+
+    }
+
+    .contenido-4 .cont-izq {
+        width: 100%;
+
+    }
+
+    .contenido-4 .cont-der {
+        display: none;
+    }
+
+
+    .cont-izq h2 {
+        font-size: 3rem;
+    }
+
+    .contenido-2 .cont-izq h2 {
+        font-size: 2rem;
+    }
+
+    .cont-izq p,
+    .cont-izq .boton,
+    .contenido-2 .cont-izq .boton {
+        font-size: 1.5rem;
+    }
+
+
+
+
+}
+
+/* === Estilos para móviles (pantallas menores de 768px) === */
+@media screen and (max-width: 768px) {
+
+    .contenido-1 {
+        flex-direction: column;
+        padding: 35px 6%;
+        gap: 20px;
+
+    }
+
+    .cont-izq, .cont-der {
+        width: 100%;
+        gap: 15px;
+
+    }
+
+    .cont-izq .boton {
+        width: 150px;
+        padding: 3px;
+
+    }
+
+    .cont-der video{
+        padding: 20px;
+    }
+
+    .contenido-2 {
+        width: 90%;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 10px;
+
+    
+    }
+    .contenido-2 .cont-izq,
+    .contenido-2 .cont-der {
+        width: 100%;
+        padding: 21px;
+        text-align: center;
+    }
+
+    .contenido-2 img {
+        margin: 5% 30%;
+    }
+
+    .contenido-2 .cont-izq .boton {
+        text-align: center;
+        width: 100%;
+
+
+    }
+    
+
+    .contenido-3 {
+        flex-direction: column;
+        padding: 35px 10%;
+        gap: 25px;
+        margin-top: 45px;
+
+    }
+
+    .contenido-3 .cont-izq,
+    .contenido-3 .cont-der {
+        width: 100%;
+        gap: 35px;
+    }
+
+    .contenido-3 img {
+        width: 55%;
+    }
+
+
+    .contenido-4 {
+        flex-direction: column;
+        padding: 35px 10%;
+        gap: 10px;
+        width: 100%;
+        margin-top: 35px;
+        margin-bottom: 35px;
+
+    }
+
+    .contenido-4 .cont-izq {
+        width: 100%;
+
+    }
+
+    .contenido-4 .cont-der {
+        display: none;
+    }
+
+
+
+    .cont-izq h2,
+    .contenido-3 .cont-izq h2,
+    .contenido-4 .cont-izq h2 {
+        font-size: 1.7rem;
+    }
+
+    .contenido-2 .cont-izq h2 {
+        font-size: 1.3rem;
+    }
+
+    .cont-izq p,
+    .cont-izq .boton,
+    .contenido-2 .cont-izq .boton {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+
+
+}
